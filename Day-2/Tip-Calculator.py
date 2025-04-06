@@ -11,9 +11,9 @@ People = int(input("Enter the number of people to split bill : "))
 
 Bill_with_tip = Tip / 100 * Total_bill + Total_bill
 tip_percent=Tip/100
-total_tip_amount = Total_bill * Tip
+total_tip_amount = Bill_with_tip - Total_bill
 
-
+print("Thanks for giving a tip of amount (RS.) : ",total_tip_amount)
 print(Bill_with_tip)
 
 Bill_per_person = Total_bill / People
